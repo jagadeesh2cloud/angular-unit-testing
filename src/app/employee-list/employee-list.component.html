@@ -1,0 +1,24 @@
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Firstname</th>
+      <th>Gender</th>
+      <th>Company</th>
+      <th>Age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let datas of data">
+      <td>{{ datas.name }}</td>
+      <td>{{ datas.gender }}</td>
+      <td>{{ datas.company }}</td>
+      <td [ngClass]="datas.age > 30 ? 'success' : 'danger'">
+        {{ datas.age }}
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="text-align:center">
+  <span appChangeText>Welcome to {{ title }}.</span>
+</div>
