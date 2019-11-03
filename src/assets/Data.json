@@ -1,68 +1,68 @@
 [
   {
-    "name": "Ethel Price",
-    "gender": "female",
-    "company": "Johnson, Johnson and Partners, LLC CMP DDC",
-    "age": 22
+    "username": "ethelprice",
+    "email": "ethelprice@test.com",
+    "password": "p*****d",
+    "strength": "strong"
   },
   {
-    "name": "Claudine Neal",
-    "gender": "female",
-    "company": "Sealoud",
-    "age": 55
+    "username": "claudineneal",
+    "email": "claudineneal@example.com",
+    "password": "u*****d",
+    "strength": "medium"
   },
   {
-    "name": "Beryl Rice",
-    "gender": "female",
-    "company": "Velity",
-    "age": 67
+    "username": "roblesboyle",
+    "email": "roblesboyle@sample.com",
+    "password": "a*****z",
+    "strength": "weak"
   },
   {
-    "name": "Wilder Gonzales",
-    "gender": "male",
-    "company": "Geekko",
-    "age": 36
+    "username": "sarahmassey",
+    "email": "sarahmassey@test.com",
+    "password": "p*****d",
+    "strength": "strong"
   },
   {
-    "name": "Georgina Schultz",
-    "gender": "female",
-    "company": "Suretech",
-    "age": 27
+    "username": "lyndamendoza",
+    "email": "lyndamendoza@example.com",
+    "password": "u*****d",
+    "strength": "medium"
   },
   {
-    "name": "Carroll Buchanan",
-    "gender": "male",
-    "company": "Ecosys",
-    "age": 67
+    "username": "schroedermathews",
+    "email": "schroedermathews@sample.com",
+    "password": "a*****z",
+    "strength": "weak"
   },
   {
-    "name": "Valarie Atkinson",
-    "gender": "female",
-    "company": "Hopeli",
-    "age": 19
+    "username": "valarieatkinson",
+    "email": "valarieatkinson@test.com",
+    "password": "p*****d",
+    "strength": "strong"
   },
   {
-    "name": "Schroeder Mathews",
-    "gender": "male",
-    "company": "Polarium",
-    "age": 42
+    "username": "carrollbuchanan",
+    "email": "carrollbuchanan@example.com",
+    "password": "u*****d",
+    "strength": "medium"
   },
   {
-    "name": "Lynda Mendoza",
-    "gender": "female",
-    "company": "Dogspa",
-    "age": 7
+    "username": "georginaschultz",
+    "email": "georginaschultz@sample.com",
+    "password": "a*****z",
+    "strength": "weak"
   },
   {
-    "name": "Sarah Massey",
-    "gender": "female",
-    "company": "Bisba",
-    "age": 78
+    "username": "wildergonzales",
+    "email": "wildergonzales@test.com",
+    "password": "p*****d",
+    "strength": "strong"
   },
   {
-    "name": "Robles Boyle",
-    "gender": "male",
-    "company": "Comtract",
-    "age": 30
+    "username": "berylrice",
+    "email": "berylrice@example.com",
+    "password": "u*****d",
+    "strength": "medium"
   }
 ]

@@ -1,19 +1,19 @@
 <table class="table table-bordered">
   <thead>
     <tr>
-      <th>Firstname</th>
-      <th>Gender</th>
-      <th>Company</th>
-      <th>Age</th>
+      <th>User name</th>
+      <th>Email</th>
+      <th>Password</th>
+      <th>Strength</th>
     </tr>
   </thead>
   <tbody>
     <tr *ngFor="let datas of data">
-      <td>{{ datas.name }}</td>
-      <td>{{ datas.gender }}</td>
-      <td>{{ datas.company }}</td>
-      <td [ngClass]="datas.age > 30 ? 'success' : 'danger'">
-        {{ datas.age }}
+      <td>{{ datas.username }}</td>
+      <td>{{ datas.email }}</td>
+      <td>{{ datas.password }}</td>
+      <td [ngClass]="datas.strength ===  'strong' ? 'success' : 'danger'">
+        {{ datas.strength }}
       </td>
     </tr>
   </tbody>

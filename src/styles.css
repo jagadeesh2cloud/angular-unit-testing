@@ -1,1 +1,13 @@
-/* Add application styles & imports to this file! */
+.invalid-feedback {
+    color: #bd4f4f;
+    padding-top: 5px;
+}
+
+.form-control.is-invalid.ng-invalid {
+    border: 1px solid #9a2525!important;
+}
+
+.form-group {
+    margin-left: 5px;
+    margin-right: 5px;
+}

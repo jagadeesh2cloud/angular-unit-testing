@@ -13,8 +13,7 @@ describe('FormsComponent', () => {
       imports: [
         ReactiveFormsModule
       ],
-    });
-    // .compileComponents();
+    }).compileComponents();
     // create component and test fixture
     fixture = TestBed.createComponent(FormsComponent);
 
@@ -76,23 +75,23 @@ it('password field validity', () => {
     expect(errors['minlength']).toBeFalsy();
 });
 
-it('submitting a form with valid data is successful', () => {
-    // expect(component.registerForm.valid).toBeFalsy();
-    component.registerForm.controls['userName'].setValue("testUser");
-    component.registerForm.controls['email'].setValue("test@test.com");
-    component.registerForm.controls['password'].setValue("123456789");
-    expect(component.registerForm.valid).toBeTruthy();
+// it('submitting a form with valid data is successful', () => {
+//     // expect(component.registerForm.valid).toBeFalsy();
+//     component.registerForm.controls['userName'].setValue("testUser");
+//     component.registerForm.controls['email'].setValue("test@test.com");
+//     component.registerForm.controls['password'].setValue("123456789");
+//     expect(component.registerForm.valid).toBeTruthy();
 
-    // let user: User;
-    // Subscribe to the Observable and store the user in a local variable.
-    // component.loggedIn.subscribe((value) => user = value);
+//     // let user: User;
+//     // Subscribe to the Observable and store the user in a local variable.
+//     // component.loggedIn.subscribe((value) => user = value);
 
-    // Trigger the login function
-    // component.login();
+//     // Trigger the login function
+//     // component.login();
 
-    // Now we can check to make sure the emitted value is correct
-    // expect(user.email).toBe("test@test.com");
-    // expect(user.password).toBe("123456789");
-});
+//     // Now we can check to make sure the emitted value is correct
+//     // expect(user.email).toBe("test@test.com");
+//     // expect(user.password).toBe("123456789");
+// });
 
 });
