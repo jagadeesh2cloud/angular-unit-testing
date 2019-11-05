@@ -10,10 +10,12 @@ import { HelloComponent } from './hello.component';
 import { FormsComponent } from './forms/forms.component';
 import { EmployeeListComponent } from './employee-list/employee-list.component';
 import { BackendApiService } from './backend-api.service';
+import { EmailMaskPipe } from './pipes/email-mask.pipe';
+import { PasswordStrengthDirective } from './directives/password-strength.directive';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,ReactiveFormsModule,AppRoutingModule,HttpClientModule ],
-  declarations: [ AppComponent, HelloComponent, FormsComponent, EmployeeListComponent ],
+  declarations: [ AppComponent, HelloComponent, FormsComponent, EmployeeListComponent, EmailMaskPipe, PasswordStrengthDirective ],
   bootstrap:    [ AppComponent ],
   providers: [BackendApiService, {provide: APP_BASE_HREF, useValue : '/' }]
 })

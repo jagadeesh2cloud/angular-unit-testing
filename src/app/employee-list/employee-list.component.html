@@ -10,7 +10,7 @@
   <tbody>
     <tr *ngFor="let datas of data">
       <td>{{ datas.username }}</td>
-      <td>{{ datas.email }}</td>
+      <td>{{ datas.email | emailMask }}</td>
       <td>{{ datas.password }}</td>
       <td [ngClass]="datas.strength ===  'strong' ? 'success' : 'danger'">
         {{ datas.strength }}

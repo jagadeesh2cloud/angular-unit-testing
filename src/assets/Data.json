@@ -3,66 +3,66 @@
     "username": "ethelprice",
     "email": "ethelprice@test.com",
     "password": "p*****d",
-    "strength": "strong"
+    "strength": "90"
   },
   {
     "username": "claudineneal",
     "email": "claudineneal@example.com",
     "password": "u*****d",
-    "strength": "medium"
+    "strength": "50"
   },
   {
     "username": "roblesboyle",
     "email": "roblesboyle@sample.com",
     "password": "a*****z",
-    "strength": "weak"
+    "strength": "30"
   },
   {
     "username": "sarahmassey",
     "email": "sarahmassey@test.com",
     "password": "p*****d",
-    "strength": "strong"
+    "strength": "90"
   },
   {
     "username": "lyndamendoza",
     "email": "lyndamendoza@example.com",
     "password": "u*****d",
-    "strength": "medium"
+    "strength": "50"
   },
   {
     "username": "schroedermathews",
     "email": "schroedermathews@sample.com",
     "password": "a*****z",
-    "strength": "weak"
+    "strength": "30"
   },
   {
     "username": "valarieatkinson",
     "email": "valarieatkinson@test.com",
     "password": "p*****d",
-    "strength": "strong"
+    "strength": "90"
   },
   {
     "username": "carrollbuchanan",
     "email": "carrollbuchanan@example.com",
     "password": "u*****d",
-    "strength": "medium"
+    "strength": "50"
   },
   {
     "username": "georginaschultz",
     "email": "georginaschultz@sample.com",
     "password": "a*****z",
-    "strength": "weak"
+    "strength": "30"
   },
   {
     "username": "wildergonzales",
     "email": "wildergonzales@test.com",
     "password": "p*****d",
-    "strength": "strong"
+    "strength": "90"
   },
   {
     "username": "berylrice",
     "email": "berylrice@example.com",
     "password": "u*****d",
-    "strength": "medium"
+    "strength": "50"
   }
 ]

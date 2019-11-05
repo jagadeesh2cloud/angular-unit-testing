@@ -4,6 +4,7 @@ import { first } from "rxjs/operators";
 import { HttpClient } from "@angular/common/http";
 import { Subject } from "rxjs";
 import { BackendApiService } from '../backend-api.service';
+import { EmailMaskPipe } from '../pipes/email-mask.pipe';
 
 @Component({
   selector: 'app-employee-list',
